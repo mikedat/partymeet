@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header .avatar {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 125px;
+    top: 50px;
+
+}
+
+
+header {
+    background-color: black;
+    padding: 40px;
+}
+ header li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 50px;
+
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(158, 157, 157);
+    border: none;
+    border-bottom: 1px solid #fff;
+
+}
+
+ header li a:hover {
+
+    color: white;
+    transition: 0s;
+}
+
+body{
+    background: url(/assets/fondologin.jpg) no-repeat center top;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+
+    padding-bottom: 50%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 22px;
+    background-color: rgb(255, 255, 255);
+}
